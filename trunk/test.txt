@@ -1,4 +1,10 @@
 this is updated by yash.
 this is updated by akshay.
 this is Changed by akshay.
+<<<<<<< .mine
+changed by yashwant....
+hgshdgfhsadfhhsdgfhgasdhgfhasgdhfghasdgfh=======
 changed by yashwant
+>>>>>>> .r6
+
+Last updaate..
