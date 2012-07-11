@@ -1,3 +1,6 @@
+<<<<<<< .mine
+aaaaaaaaaaaaaaaaaaa
+=======
 this is updated by yash.
 this is updated by akshay.
 this is Changed by akshay.
@@ -5,4 +8,4 @@ changed by yashwant....
 Last updaate..
 teri oor
 oye jugni......
-ek vari aja 
+ek vari aja >>>>>>> .r11
