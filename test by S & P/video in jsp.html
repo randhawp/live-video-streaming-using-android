@@ -1,0 +1,31 @@
+		
+Click to Play
+<a  
+			 href="B.mp4"
+			 style="display:block;width:640px;height:480px"  
+             id="player">
+		</a> 
+	
+		<!-- this will install flowplayer inside previous A- tag. -->
+
+		<script>
+			flowplayer("player", "B.mp4",{
+                        clip: {
+                            autoPlay: true,
+                            live: true,
+                            scaling: 'fit',
+                        },
+                        
+                        plugins: {
+                            controls: {
+                                url: 'B.mp4',
+                                playlist: false,
+                                fullscreen: true,
+                                volume: false,
+                                mute: false,
+                                stop: true,
+                                scrubber: false
+                                }
+                       }
+                    });
+		</script>
