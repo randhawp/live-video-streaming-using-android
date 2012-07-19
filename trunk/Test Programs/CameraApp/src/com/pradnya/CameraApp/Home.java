@@ -1,9 +1,5 @@
 package com.pradnya.CameraApp;
-
-
 import java.io.IOException;
-
-
 import android.app.Activity;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -21,12 +17,11 @@ import android.view.SurfaceHolder.Callback;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class Home extends Activity {
-    
+public class Home extends Activity 
+{
 	Camera c;
 	
-   
-    public void onCreate(Bundle savedInstanceState) {
+	public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
