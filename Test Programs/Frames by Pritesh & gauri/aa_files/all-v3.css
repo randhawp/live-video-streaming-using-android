@@ -1,0 +1,674 @@
+/* Marakana Skin */
+#behind-the-site {
+  background: url(images/page-flap.png) top right no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  width: 93px;
+  height: 101px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+
+#header {
+  background: url(images/header-background.png) top left repeat-x;
+  height: 80px;
+}
+#main-outer {
+  background: url(images/page-side-background.gif) top right repeat-y;
+}
+#top-bar {
+  color: #fff;
+}
+#sub-navigation ul li a {
+  color: #000;
+  background: none;
+  display: inline;
+}
+#footer {
+  background: url(images/footer-background.png) repeat-x;
+}
+#page-header {
+    background: none;
+    height: auto;
+}
+#side-header {
+    height: auto;
+}
+#top-bar {
+    background: none;
+}
+#user-box a:hover {
+    color: #f90;
+    background-color: #fff;
+}
+#contactus-box a {
+    color: #fff;
+}
+#contactus-box a:hover {
+    color: #000;
+}
+
+a:hover {
+    color: #01b5f0;
+}
+
+/* +++ Page Headers +++ */
+#content h2,
+#content h3 {
+  background: url(images/h2-background.png) left bottom no-repeat;
+}
+#content h2 span {
+  padding-left: 40px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+#main-side h2 span {
+  padding-left: 22px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.training-course-page h2#duration span,
+.training-public-course-event-page h2#time span {
+  background-image: url(images/header/clock-9.png);
+}
+.training-course-page h2#objectives span {
+  background-image: url(images/header/dash-x.png);
+}
+.training-course-page h2#audience span,
+.training-public-course-event-page h2#instructor span {
+  background-image: url(images/header/person.png);
+}
+.training-course-page h2#prerequisites span {
+  background-image: url(images/header/dotted-circle-a.png);
+}
+.training-course-page h2#instructors span {
+  background-image: url(images/header/art4.png);
+}
+.training-course-page h2#setup-requirements span {
+  background-image: url(images/header/triple-x.png);
+}
+.training-course-page h2#additional-notes span {
+  background-image: url(images/header/note.png);
+}
+.training-course-page h2#outline span,
+.store-product-page h2#description span {
+  background-image: url(images/header/dotted-circles.png);
+}
+.training-course-page h2#course-testimonials span,
+.training-course-page h2#testimonials span,
+.expert-profile-page h2#testimonials span,
+.training-public-course-event-page h2#references span {
+  background-image: url(images/header/quote.png);
+}
+.training-courses-page h2 span,
+.training-category-page h2 span,
+.training-public-course-event-page h2#next-step span,
+.store-category-page h2 span {
+  background-image: url(images/header/right-arrow.png);
+}
+#team-page h2 span,
+#contact-us-page h2#visit-us span {
+  background-image: url(images/header/person.png);
+}
+.training-course-page h2#onsite-info span {
+  background-image: url(images/header/small/target.png);
+}
+.training-course-page h2#public-training-info span,
+.training-category-page h2#training-survey-responses-info span,
+.training-category-page h2#training-schedule span,
+.training-public-course-event-page h2#training-survey-responses-info span,
+.training-public-course-event-page h2#instructor-rating-info span,
+.training-public-course-event-page h2#location-ratings-info span,
+.training-location-page h2#location-schedule-info span,
+h2#upcoming-schedule-info span {
+  background-image: url(images/header/small/sun.png);
+}
+h2#upcoming-schedule span {
+  background-image: url(images/header/clock-9.png);
+}
+h2#expertise span {
+  background-image: url(images/header/hand-thumb-up.png);
+}
+.training-course-page h2#course-rating-info span,
+.training-category-page .related-info-box h2#course-rating-info span,
+h2#training-categories-info span,
+h2#training-register-now span {
+  background-image: url(images/header/small/dotted-circle.png);
+}
+.training-course-page h2#course-testimonials-info span,
+.training-category-page h2#course-testimonials-info span,
+.training-public-course-event-page h2#course-testimonials-info span,
+h2#course-testimonials-info span,
+.training-course-page h2#testimonials-info span,
+.training-category-page h2#testimonials-info span,
+.training-public-course-event-page h2#testimonials-info span,
+h2#testimonials-info span {
+  background-image: url(images/header/small/quote.png);
+}
+.training-course-page h2#course-clients-info span,
+.training-location-page h2#public-locations-info span,
+h2#seo-training-locations-info span,
+h2#training-locations-info span,
+h2#pricing-rules-info span {
+  background-image: url(images/header/small/five-dots.png);
+}
+.training-course-page h2#related-courses-info span,
+.store-category-page h2#related-categories-info span,
+.store-product-page h2#related-products-info span,
+.store-product-page h2#related-categories-info span,
+h2#training-location-info span {
+  background-image: url(images/header/small/related.png);
+}
+h2#news-flash span {
+  background-image: url(images/header/star.png);
+  font-weight: bold;
+}
+.home-page h2#promotionHeader span {
+  background-image: url(images/header/saw.png);
+}
+.home-page h2#testimonialsHeader span {
+  background-image: url(images/header/quote.png);
+}
+.home-page h2#recentBlogPostsHeader span {
+  background-image: url(images/header/thicker-star.png);
+}
+.home-page h2#recentForumPostsHeader span {
+  background-image: url(images/header/talk.png);
+}
+.home-page h2#upcomingEventsHeader span {
+  background-image: url(images/header/clock-9.png);
+}
+#contact-us-page h2#call-us span {
+  background-image: url(images/header/phone.png);
+}
+#contact-us-page h2#write-to-us span {
+  background-image: url(images/header/note.png);
+}
+.store-product-page h2#options span {
+  background-image: url(images/header/triangle-circle.png);
+}
+.training-public-course-event-page h2#confirmed span {
+  background-image: url(images/header/hand-thumb-up.png);
+}
+.training-public-course-event-page h2#location span {
+  background-image: url(images/header/plane.png);
+}
+.training-public-course-event-page h2#price span {
+  background-image: url(images/header/dollar.png);
+}
+.training-public-course-event-page h2#restriction span {
+  background-image: url(images/header/wheel.png);
+}
+.training-public-course-event-page h2#provider span {
+  background-image: url(images/header/talk.png);
+}
+.training-public-course-event-page h2#structure span {
+  background-image: url(images/header/loose-spiral.png);
+}
+.training-public-course-event-page h2#provided span {
+  background-image: url(images/header/hand-ok.png);
+}
+.training-public-course-event-page h2#responsibilities span {
+  background-image: url(images/header/hand.png);
+}
+.training-public-course-event-page h2#max-class-size span {
+  background-image: url(images/header/cross-x.png);
+}
+.forums-page h2#reply span {
+  background-image: url(images/header/talk.png);
+}
+
+#content h4 {
+  background: #fff url(images/right-arrow.png) no-repeat left center;
+  padding-left: 18px;
+  color: #f90;
+}
+
+/* +++ Page Common Elements (ul, li, p, etc.) +++ */
+
+#content ul {
+  list-style-image: url(images/li-square.png);
+}
+table thead td, table thead th {
+  background: #999 url(images/table_thead_background.gif) repeat-x;
+}
+
+
+/* +++ Page Sections (divs) +++ */
+
+#content .content-navigation {
+  background: #fff url(images/content-hr.png) no-repeat left top;
+  color: #f90;
+}
+#content .content-navigation a {
+  border-right: 1px solid #ccc;
+  padding: 0 10px;
+  margin: 0 1px;
+  font-size: 10px;
+}
+#content .content-navigation a:last-child {
+  border: none;
+}
+#content .content-navigation a:hover {
+  background: #fff url(images/down-arrow.png) no-repeat left center;
+  color: #f90;
+}
+#search-box {
+  border-color: #f90;
+}
+#main-side .related-info-box {
+  background: url(images/related-info-box-background.png) top right repeat-y;
+}
+#main-side .related-info-box h2 {
+  color: #f90;
+}
+#main-side .related-info-box ul {
+  list-style-image: url(images/li-square.png);
+}
+#user-box a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f90;
+}
+#content #breadcrums {
+  color: #f90;
+}
+.testimonial-author {
+  color: #f90;
+}
+#content h2.promo-header {
+  background-color: #f90;
+}
+#content div.promo-box {
+  background: #fff url(images/promo-box-background.png) no-repeat left top;
+}
+#content div.content-box em {
+  color: #f90;
+}
+#content ul.special,
+#main-side .related-info-box ul.special {
+  list-style-image: url(images/right-arrow.png);
+}
+div.dynamicInfoBox,
+div.dynamicImageBox,
+div.dynamicFormBox {
+  border-color: #f90;
+}
+.admin-page div.dynamicFormBox {
+  border-color: #777bb4;
+}
+.admin-page #Menubar {
+  background: url(images/related-info-box-background.png) repeat-y;
+}
+.admin-page #header {
+  background: url(images/admin-header-background.png) repeat-x;
+}
+.admin-page #content h2, 
+.admin-page #content h3 {
+  background: url(images/admin-h2-background.png) no-repeat scroll left bottom;
+}
+.admin-page #search-box {
+  border-color: #000;
+}
+.admin-page #user-box a {
+  background: none;
+}
+.admin-page #top-navigation ul li a {
+  color: #fff;
+}
+.admin-page #top-navigation ul li a:hover {
+  color: #009ff8;
+}
+
+a:hover {
+    color: #01b5f0;
+}
+.timeframeBox a.activeTimeFrame {
+    color: #f90;
+}
+#content ul.callout, #main-side .related-info-box ul.callout {
+    list-style-image: url(images/right-arrow.png);
+}
+.bbeditor button:hover {
+    border: 1px solid #f90;
+}
+.inlineNote, 
+.note, 
+.tool {
+    color: #f90;
+}
+
+form .smallest, 
+form .small,
+form .small-to-medium,
+form .medium, 
+form .middle,
+form .normal,
+form .large, 
+form .largest,
+form input[type="radio"],
+form input[type="checkbox"],
+form input[type="password"] {
+    background: #fff;
+}
+
+form .smallest, 
+form .small,
+form .small-to-medium,
+form .medium, 
+form .middle,
+form .normal,
+form .large, 
+form .largest,
+form input.number,
+form textarea {
+    border: 1px solid #aaa;
+}
+form input:focus, form select:focus, form textarea:focus {
+    background-color: #ffc;
+}
+form button.small,
+.buttons button.small,
+form button.medium,
+.buttons button.medium,
+form button.large,
+.buttons button.large,
+form button.larger,
+.buttons button.larger,
+form button.huge,
+.buttons button.huge,
+form button.call-small,
+.buttons button.call-small,
+form button.call-medium,
+.buttons button.call-medium,
+form button.call-large,
+.buttons button.call-large,
+form button.call-larger,
+.buttons button.call-larger,
+form button.call-huge,
+.buttons button.call-huge,
+a.callout {
+    border: 0;
+    padding: 0;
+    color: #fff;
+    height: 24px;
+    margin: 2px 0px;
+    font: normal normal bold 12px/20px Helvetica, sans-serif;
+    cursor: pointer;
+    vertical-align: top;
+    text-decoration: none;
+}
+form button.small,
+.buttons button.small {
+    width: 83px;
+    background: url(images/button-background-083.png);
+}
+form button.medium,
+.buttons button.medium {
+    background: url(images/button-background-120.png);
+    width: 120px;
+}
+form button.large,
+.buttons button.large {
+    background: url(images/button-background-160.png);
+    width: 160px;
+}
+form button.larger,
+.buttons button.larger {
+    background: url(images/button-background-200.png);
+    width: 190px;
+}
+form button.huge,
+.buttons button.huge {
+    background: url(images/button-background-240.png);
+    width: 240px;
+}
+form button.call-small,
+.buttons button.call-small {
+    background: url(images/call-button-background-083.png);
+    width: 83px;
+}
+form button.call-medium,
+.buttons button.call-medium {
+    background: url(images/call-button-background-120.png);
+    width: 120px;
+}
+form button.call-large,
+.buttons button.call-large {
+    background: url(images/call-button-background-160.png);
+    width: 160px;
+}
+form button.call-larger,
+.buttons button.call-larger {
+    background: url(images/call-button-background-200.png);
+    width: 190px;
+}
+form button.call-huge,
+.buttons button.call-huge {
+  background: url(images/call-button-background-240.png);
+  width: 240px;
+}
+
+.textCommentHeader {
+  font-style: italic;
+  border-bottom: 1px dashed #808080;
+}
+
+img.banner {
+  border: 1px solid #07a;
+}
+.popup-page h2 {
+  color: #000;
+  background: none;
+  border: none;
+}
+.popup-page #content h2 span {
+	padding: 0;
+}
+.popup-page form input[type="submit"],
+.popup-page form input[type="button"],
+.popup-page form input.button,
+.popup-page form button {
+    color: #000;
+    text-decoration: none;
+    background-color: #f90;
+}
+
+.popup-page form input[disabled="disabled"],
+.popup-page form input.disabled {
+	color: #666;
+}
+
+.popup-page form input {
+	background-color:#fff;
+	border:1px solid #999;
+}
+.popup-page form input:hover {
+	border:1px solid #000;
+}
+
+
+pre {
+	background-color:#FAFAFA;
+	border:1px solid #BBBBBB;
+	font-size:9pt;
+	line-height:125%;
+	margin:1em 0 0;
+	overflow:auto;
+	padding:0.99em;
+}
+code, pre {
+	color:#007000;
+	font-family:monospace;
+}
+
+ul.callout li {
+    border-bottom: 1px dotted #ccc;
+}
+
+a.callout {
+    background: url(images/call-button-background-120.png) no-repeat top left;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px;
+}
+a.callout:hover {
+    color: #fff;
+}
+
+
+img.course-icon {
+    float:left;
+    margin-right: 10px;
+    height:25px;
+    width:25px;
+}
+
+img.category-icon {
+    float:left;
+    margin-right: 10px;
+    height:50px;
+    width:50px;
+}
+
+.forumPost {
+border: 1px solid #ccc;
+}
+.forumPost .history {
+border: none;
+}
+.forumPost .postHeader {
+border: none;
+}
+
+#content .content-section {
+margin-left:0;
+}
+
+img.logo {
+max-width: 125px;
+max-height: 125px;
+}
+.forumPost .postHeader img.logo {
+float:right;
+width: 50px;
+height:50px;
+}
+
+
+a.important {
+font-size: 1.4em;
+}
+#top-navigation {
+    margin-top: 5px;
+}
+#top-navigation ul li {
+    float: left;
+    margin-right: 20px;
+}
+#top-navigation ul li a {
+    color: #000;
+    font-size: 1.4em;
+    border: none;
+    display: inline;
+}
+#top-navigation ul li a.selected {
+    color: #fff;
+}
+#sub-navigation li {
+    margin-top: 3px;
+}
+h1 {
+   font-family: Georgia,serif;
+   font-size: 1.9em;
+   font-weight: normal;
+}
+#footer-copyright {
+   clear: none;
+}
+.course-event-photo-box,
+.forum-post-photo-box,
+.stream-post-photo-box {
+    float:left;
+    margin-right: 10px;
+}
+.contact-photo-content-logo-box {
+    position: relative;
+    height:50px;
+    width:50px;
+}
+.contact-photo-content-logo-box img.contact-photo {
+    width: 100%;
+    height: 100%;
+}
+.contact-photo-content-logo-box img.content-logo {
+    position: absolute;
+    bottom: -5px;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+}
+.course-event-info-box {
+    margin-left: 60px;
+}
+img.forum-user-photo {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+#content h2.first {
+    margin-top: 12px;
+}
+
+#content code.literal {
+    line-height: 100%;
+    background: none;
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+.static-content .mediaobject img {
+    max-width: 640px;
+}
+
+#content .static-content h2,
+#content .static-content h3,
+#content .static-content h4, 
+#content .static-content h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.static-content div.note,
+.static-content div.warning {
+    color: inherit;
+    border: 1px #ccc solid;
+    margin: 10px;
+}
+
+.static-content div.note table,
+.static-content div.warning table {
+    margin-bottom: 0px;
+}
+.static-content table tbody tr td {
+    background: none;
+    border: none;
+}
+a.top {
+    float: right;
+    background: #fff url(images/up-arrow.png) no-repeat left center;
+}
+a.top small {
+    visibility: hidden;
+}
+
