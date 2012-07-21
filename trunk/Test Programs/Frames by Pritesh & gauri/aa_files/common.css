@@ -1,0 +1,499 @@
+/* _____COMMON_CLASSES_____ */
+
+.number,
+.numberSubtotal,
+.numberTotal,
+.totalLabel {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.totalLabel {
+    font-weight: bold;
+}
+
+.numberSubtotal {
+    border-top: 1px solid #999;
+}
+
+.numberTotal {
+    border-top: 3px double #000;
+}
+
+.clear {
+    clear: both;
+}
+
+.error,
+.notice,
+.unavailableStatus {
+    color: #c00;
+}
+
+.important-notice {
+    color: #c00;
+    font-weight: bold;
+    text-decoration: blink;
+}
+
+.statusMessage,
+.availableStatus {
+    color: #090;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: #ffc;
+}
+
+.fade {
+    color: #999;
+}
+
+.page-generated-header {
+    font-style: italic; 
+    float: right;
+}
+
+.boolean,
+.boolean-true,
+.boolean-false,
+.date,
+.time,
+.datetime,
+.status,
+.statusACTIVE,
+.statusINACTIVE,
+.undefinied,
+.type,
+.centered {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.undefinied {
+    font-style: italic;	
+}
+.enabled {
+	color: #000;
+}
+.disabled {
+    color: #666;
+}
+
+/* _____ENUMERATED_CLASSES_____ */
+
+.statusACTIVE,
+.boolean-true {
+    color: #090; 
+}
+
+.statusINACTIVE,
+.boolean-false,
+.undefinied {
+    color: #c00;
+}
+
+.priority1 { color: #ff0; }
+.priority2 { color: #fc0; }
+.priority3 { color: #f90; }
+.priority4 { color: #f60; }
+.priority5 { color: #f30; }
+
+.surveyRating1 { color: #f00; }
+.surveyRating2 { color: #f60; }
+.surveyRating3 { color: #c0c; }
+.surveyRating4 { color: #009; }
+.surveyRating5 { color: #360; }
+
+.registrationStatusTENTATIVE,
+.eventStatusTENTATIVE,
+.customerOrderStatusIN_PROGRESS,
+.paymentStatusIN_PROGRESS,
+.requestForContactStatusIN_PROGRESS,
+.affiliateConversionStatusPENDING,
+.talentPlacementStatusIN_PROGRESS,
+.timesheetStatusAPPROVED {
+	color: #c30;
+	font-weight: bold;
+}
+
+.timesheetStatusBILLED {
+	color: #0C0;
+	font-weight: bold;
+}
+
+.registrationStatusCONFIRMED,
+.eventStatusCONFIRMED,
+.customerOrderStatusFULFILLED,
+.paymentStatusPROCESSED,
+.requestForContactStatusCOMPLETED,
+.affiliateConversionStatusAPPROVED,
+.opportunityStageWON,
+.talentPlacementStatusFULFILLED,
+.timesheetStatusCOMPLETED {
+	color: #090;
+}
+
+.registrationStatusCANCELLED,
+.eventStatusCANCELLED,
+.customerOrderStatusCANCELLED,
+.paymentStatusREFUNDED,
+.paymentStatusCANCELLED,
+.opportunityStageBOGUS,
+.requestForContactStatusBOGUS,
+.affiliateConversionStatusDECLINED,
+.talentPlacementStatusCANCELLED {
+	color: #006;
+}
+
+.timesheetStatusDRAFT {
+	color: #C00;
+	font-weight: bold;
+}
+
+.customerOrderStatusPENDING_SUBMISSION {
+	color: #600;
+}
+
+.opportunityStageLEAD,
+.customerOrderStatusNEW, 
+.paymentStatusNEW,
+.paymentStatusFAILED,
+.requestForContactStatusNEW,
+.affiliateConversionStatusNEW,
+.talentPlacementStatusNEW,
+.timesheetStatusSUBMITTED {
+	color: #900;
+	font-weight: bold;
+}
+
+.timesheetStatusREJECTED {
+	color: #F00;
+	font-weight: bold;
+}
+
+.opportunityStagePROSPECT_COLD {
+    color: #0bf;
+    font-weight: bold;
+}
+
+.opportunityStagePROSPECT_WARM {
+    color: #f36;
+    font-weight: bold;
+}
+
+.opportunityStagePROSPECT_HOT {
+    color: #f0b;
+    font-weight: bold;
+}
+
+.opportunityStageSELLING_COLD {
+    color: #39f;
+    font-weight: bold;
+}
+
+.opportunityStageSELLING_WARM {
+    color: #03f;
+    font-weight: bold;
+}
+
+.opportunityStageSELLING_HOT {
+    color: #30f;
+    font-weight: bold;
+}
+
+.opportunityStageLOST_NO_REASON_GIVEN {
+    color: #425;
+}
+
+.opportunityStageLOST_COMPETITION {
+    color: #424;
+}
+
+.opportunityStageLOST_CANNOT_DELIVER {
+    color: #423;
+}
+
+.opportunityStageLOST_OVER_BUDGET {
+    color: #422;
+}
+
+.opportunityStageLOST_OTHER {
+    color: #421;
+}
+
+.opportunityTypePUBLIC {
+    color: lightseagreen;	
+}
+
+.opportunityTypeONSITE {
+    color: blueviolet;
+}
+
+.skillRatingINTERESTED {
+    color: #ccc;
+}
+
+.skillRatingNOVICE {
+    color: #fc0;
+}
+
+.skillRatingBEGINNER {
+    color: #f90;
+}
+
+.skillRatingCOMPETENT {
+    color: #f60;
+}
+
+.skillRatingPROFICIENT {
+    color: #f30;
+}
+
+.skillRatingEXPERT {
+    color: #f00;
+}
+
+.categoryTypeREQUIRED {
+	color: red;
+}
+
+.categoryTypeRECOMMENDED {
+    color: orange;
+}
+
+.categoryTypePROVIDED {
+    color: green;
+}
+
+.taskStatusOUTSTANDING {
+   color: red;
+}
+
+.taskStatusIN_PROGRESS {
+    color: orange;
+}
+
+.taskStatusDONE {
+    text-decoration: line-through;
+    color: green;
+}
+
+.taskImportanceLOW {
+    font-style: italic;
+}
+
+.taskImportanceNORMAL {
+    
+}
+
+.taskImportanceHIGH {
+    font-weight: bold;
+}
+
+.overDue {
+	border-bottom: 2px dotted red; 
+}
+
+/* _____THERMOMETER_____ */
+
+div.thermometer {
+    width: 100%; 
+    border: 1px solid red; 
+    background-color: #fcc;
+    padding: 0px;
+}
+
+div.thermometer div.percentage {
+    background-color: #adff2f; 
+    text-align: right;
+}
+
+/* _____STAR_RATING_____ */
+
+.star5_rating,
+.star10_rating {
+    height: 12px;
+    vertical-align: middle;
+}
+
+#main-side .related-info-box .star5_rating,
+#main-side .related-info-box .star10_rating {
+    margin-left: 23px;
+    margin-top: 3px;
+}
+
+.propertyRow .propertyOutput .star5_rating { width : 80px; }
+.propertyRow .propertyOutput .star10_rating { width : 160px; }
+
+.star5_rating .star5_rating_value,
+.star10_rating .star10_rating_value {
+    float: right;
+}
+
+.star5_rating .star5_rating_bar,
+.star10_rating .star10_rating_bar {
+    float: left;
+    background: url(/images/star_rating_grey.gif) 0 0 repeat-x;
+}
+
+.star5_rating .star5_rating_bar {width: 55px;}
+.star10_rating .star10_rating_bar {width: 110px;}
+
+.star5_rating .star5_rating_bar div,
+.star10_rating .star10_rating_bar div {
+    height: 12px;
+    background: url(/images/star_rating_orange.gif) 0 0 repeat-x;
+}
+
+/* _____PAGINATION_CONTROL____ */
+
+#content ul.pagination-control {
+    margin: 5px 0px;
+    list-style: none;
+    font-size: xx-small;
+}
+#content ul.pagination-control li {
+    border:0;
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+#content ul.pagination-control a {
+    border: solid 1px #ccc;
+    margin-right: 2px;
+}
+#content ul.pagination-control a:link,
+#content ul.pagination-control a:visited {
+    display: block;
+    float: left;
+    padding: 3px 4px;
+    text-decoration: none;
+}
+#content ul.pagination-control a:hover {
+	text-decoration:none;
+    border: solid 1px #666;
+}
+#content ul.pagination-control .previous-off,
+#content ul.pagination-control .next-off {
+    color: #666;
+    display: block;
+    float: left;
+    font-weight: bold;
+    padding: 3px 4px;
+}
+#content ul.pagination-control .next a,
+#content ul.pagination-control .previous a {
+    font-weight:bold;
+    border: solid 1px #fff;
+} 
+#content ul.pagination-control .active {
+    color: black;
+    font-weight: bold;
+    display: block;
+    float: left;
+    padding: 4px 4px;
+}
+
+/* _____PROGRESS_BAR_____ */
+
+#content ul.progressBar {
+    list-style: none;
+    display: block;
+    padding: 0; 
+    margin: 0px 0px 3px 0px;
+    overflow: auto;
+}
+
+#content ul.progressBar  li {
+    display: inline;
+    float: left;
+    padding: 0px 0px 8px 0px; 
+    margin: 0;
+    text-align: center;
+    width: 124px;
+    height: 22px;
+    color: #999;
+}
+
+#content ul.progressBar li.first {
+    background-image: url(/images/progressbar/line.png);
+    background-repeat: repeat-x;
+}
+
+#content ul.progressBar li.active {
+    background-image: url(/images/progressbar/active-bg.png);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: #666;
+}
+
+#content ul.progressBar li.inactive {
+    background-image: url(/images/progressbar/inactive-bg.png);
+    background-repeat: no-repeat;
+}
+
+#content ul.progressBar li.activeLast {
+    background-image: url(/images/progressbar/active-bg-last.png);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: #666;
+}
+
+#content ul.progressBar li.inactiveLast {
+    background-image: url(/images/progressbar/inactive-bg-last.png);
+    background-repeat: no-repeat;
+}
+
+.currentSelection {
+	font-weight: bold;
+}
+#content ol.multiple-choice-option-list {
+    list-style-position: outside;
+    margin-left: 20px;
+}
+#content ol.multiple-choice-option-list li {
+	padding-left: 30px;
+	background-repeat: no-repeat;
+}
+#content ol.multiple-choice-option-list li.answered {
+	background-image: url(/images/icons/asterisk.png);
+}
+#content ol.multiple-choice-option-list li.correct {
+    background-image: url(/images/icons/arrow_right.png);
+}
+#content ol.multiple-choice-option-list li.answeredcorrect {
+    background-image: url(/images/icons/yes.png);
+}
+#content ol.multiple-choice-option-list li.answeredincorrect {
+    background-image: url(/images/icons/no.png);
+}
+
+table td div.error {
+    width: 100%;
+    white-space: normal;   
+}
+.changedEntityInfo {
+    font-style: italic;
+    color: #666;   
+}
+option.fullCourseEvent {
+    text-decoration: line-through;
+    color: #999;
+}
+ol.alphabetic {
+    list-style-type: lower-alpha;
+}
+div.productItemDownloadExtraInfo {
+    font-size: 65%;
+}
+
+.detractor-score { color: red; font-weight: bold; }
+.passive-score { color: black; font-weight: normal; }
+.promoter-score { color: green; }
+
+.staticFileActions a, .staticFileActions a:hover {
+	text-decoration: none; 
+}
+

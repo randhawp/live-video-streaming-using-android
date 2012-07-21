@@ -1,0 +1,1581 @@
+/* _____HTML_ELEMENTS_____ */
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+html table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+table thead td,
+table thead th {
+    padding: 6px 5px;
+}
+
+table tbody tr td, 
+table tfoot td {
+    padding: 3px 5px;
+}
+
+table.data tbody tr td,
+table.data tfoot td {
+    vertical-align: top;
+}
+
+a:active {
+    border: 0;
+}
+
+/* _____GLOBAL_LAYOUT_____ */
+
+.content-part {
+	float: left;
+	width: 730px;
+}
+
+.page-part {
+	width: 970px;
+	margin: 0 auto;
+}
+
+.side-part {
+	float: left;
+	width: 240px;
+}
+
+/* _____HEADER_LAYOUT_____ */
+
+#header {
+	width: 100%;
+	height: 180px;
+}
+
+#top-bar {
+	height: 30px;
+}
+
+#user-box {
+	float: left;
+	vertical-align: baseline;
+	padding-left: 2px;
+}
+
+#user-box a {
+	padding: 2px 4px;
+	margin-left: 5px;
+}
+
+#contactus-box {
+	float: right;
+	margin-right: 9px;
+}
+
+#page-header {
+	height: 150px;
+	position: relative;
+}
+
+#page-header h1 {
+	padding-left: 2px;
+	padding-top: 10px;
+	height: 118px;
+	width: 450px;
+	position: relative;
+	z-index: 1;
+}
+
+#page-header h1 #tagline {
+	display: block;
+}
+
+img#page-logo {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	height: 150px;
+	z-index: 0;
+}
+
+#sub-navigation {
+	height: 22px;
+	position: relative;
+	z-index: 1;
+}
+
+#sub-navigation ul {
+	list-style: none;
+}
+
+#sub-navigation ul li {
+	float: left;
+}
+
+#sub-navigation ul li a {
+	display: block;
+	margin-right: 8px;
+	padding: 4px 8px;
+}
+
+#side-top,
+#side-header {
+    position: relative;
+    z-index: 2;
+}
+
+#side-top {
+	height: 30px;
+}
+
+#side-header {
+	height: 150px;
+}
+
+#company-logo {
+	margin-left: 20px;
+	border-width: 0px;
+	max-width: 200px;
+	max-height: 47px;
+}
+
+#top-navigation ul {
+	list-style: none;
+}
+
+#top-navigation ul li a {
+	display: block;
+	padding-left: 8px;
+	border-left: 13px solid #fff;
+}
+
+/* _____CONTENT_LAYOUT_____ */
+
+#main-outer-footer {
+    clear: both;	
+}
+
+#main-content {
+	position: relative;
+	z-index: 12;
+	padding-bottom: 40px;
+}
+
+#content {
+	padding: 30px 40px 30px 0px;
+}
+
+/* _____CONTENT_ELEMENTS_____ */
+
+#content h2 {
+	clear: both;
+	margin-top: 15px;
+	margin-bottom: 4px;
+	height: 27px;
+	padding-bottom: 3px;
+}
+
+#content h2 img {
+	float: left;
+	height: 30px;
+	margin-right: 10px;
+	width: 30px;
+}
+
+#content h2 img.icon {
+	float: none;
+	height: auto;
+	margin-left: 20px;
+	width: auto;
+}
+
+#admin-page #content h2 img {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: inherit;
+}
+
+#content h2.first {
+	margin-top: 0px;
+	height: auto;
+}
+
+#content h3 {
+	clear: both;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	padding-bottom: 1px;
+}
+
+#content .first-content-section {
+	margin-bottom: 10px;
+}
+
+#content .content-section {
+	margin-left: 40px;
+}
+
+#content .column {
+	float: left;
+	width: 305px;
+}
+
+#content img.content-photo,
+#content img.content-photo-right {
+	float: right;
+	margin: 5px 0px 20px 30px;
+}
+
+#content img.content-photo-left {
+	float: left;
+	margin: 5px 30px 20px 0px;
+}
+
+#content p {
+	margin: 10px 0;
+}
+
+#content ul,
+#content ol {
+	list-style-position: outside;
+	margin-left: 30px;
+}
+
+#content .content-navigation {
+	clear: both;
+	padding-top: 7px;
+	text-align: center;
+}
+
+#content .content-navigation a {
+	margin-left: 5px;
+	text-decoration: none;
+}
+
+/* _____SIDE_LAYOUT_____ */
+
+#main-side {
+	z-index: 11;
+	position: relative;
+}
+
+#main-side .related-info-box {
+	margin-top: 20px;
+	padding: 9px 10px 15px 0px;
+}
+
+#main-side .related-info-box h2 {
+	margin-bottom: 9px;
+	padding: 2px 0px;
+	min-height: 17px;
+}
+
+#main-side .related-info-box p {
+	margin-left: 23px;
+	margin-top: 3px;
+}
+
+#main-side .related-info-box ul {
+	margin-left: 23px;
+	list-style-position: outside;
+}
+
+#main-side .related-info-box table {
+	margin-left: 23px;
+}
+
+#main-side .related-info-box table tr td {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+#search-box {
+	border: 4px solid #fff;
+	height: 20px;
+	width: 232px;
+	position: relative;
+}
+
+#search-field {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #000;
+	height: 18px;
+	width: 206px;
+	padding: 0px 2px;
+}
+
+#search-button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border: none;
+	height: 20px;
+	width: 20px;
+}
+
+/* _____FOOTER_LAYOUT_____ */
+
+#footer {
+	width: 100%;
+	height: 102px;
+	padding-top: 20px;
+	clear: both;
+}
+
+#footer-blurb {
+	width: 365px;
+	height: 50px;
+	float: left;
+}
+
+#footer-blurb .blurb a.inlineAdminLink {
+    right: 60px;	
+}
+
+#footer-blurb ul {
+	float: left;
+	list-style-position: inside;
+	margin-right: 10px;
+}
+
+#footer-blurb ul li {
+	padding: 0;
+	margin: 0;
+}
+
+#footer-company-info {
+	width: 345px;
+	margin-left: 20px;
+	float: left;
+}
+
+#footer-company-info #company-address {
+	float: left;
+	width: 200px;
+}
+
+#footer-company-info #company-phone {
+	float: left;
+	width: 195px;
+}
+
+#footer-side {
+    position: relative;
+    padding-top: 40px;
+    text-align: center;	
+}
+
+#footer-copyright {
+    clear: both;
+	padding-top: 25px;
+}
+
+/* _____CUSTOM_ELEMENTS_____ */
+
+.blurb {
+	position: relative;
+}
+
+.blurb a.inlineAdminLink,
+.postHeader a.inlineAdminLink {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+table.two-column tr th,
+table.two-column tr td {
+    width: 50%;
+}
+
+#content .testimonial {
+	margin-top: 10px;
+	padding-right: 20px;
+}
+
+.related-info-box .testimonial {
+	margin-left: 23px;
+}
+
+img.banner {
+	width: 300px;
+	height: 90px;
+	vertical-align: middle;
+	padding: 3px;
+	margin: 3px;
+	float: right;
+}
+
+img.client-logo {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	border: 0 none;
+	max-width: 100px;
+	max-height: 100px;
+	text-align: center;
+}
+
+img.team_user_pic {
+	margin-left: 7px;
+	float: right;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.actions,
+table tbody tr td.actions {
+	white-space: nowrap;
+	text-align: center;
+	width: 100px;
+}
+
+.hide {
+	position: absolute;
+	left: -1500px;
+}
+
+#content h2.promo-header {
+	margin-bottom: 0;
+}
+
+#content div.promo-box {
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+#content div.content-box {
+	float: left;
+	width: 320px;
+	margin-right: 25px;
+}
+
+#content ul.special li,
+#main-side .related-info-box ul.special li {
+	margin-bottom: 7px;
+}
+
+#content .promotion {
+	margin-bottom: 10px;
+}
+
+#main a.inlineAdminLink {
+	float: right;
+	padding-right: 4px;
+}
+
+#main a.inlineAdminLink img {
+	width: 16px;
+	height: 16px;
+	float: none;
+	margin: 0;
+}
+
+.photo-right,
+#content img.photo-right {
+	float: right;
+	margin: 0 0 5px 10px;
+}
+
+.photo-left,
+#content img.photo-left {
+	float: left;
+	margin: 0 10px 5px 0;
+}
+
+.timeframeBox {
+	padding: 5px;
+}
+
+.timeframeBox a {
+	white-space: nowrap;
+}
+
+#main div.autocomplete {
+	position: absolute;
+	width: 250px;
+	background-color: #fff;
+	border: 1px solid #888;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main div.autocomplete ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main div.autocomplete ul li.selected {
+	background-color: #e9e9e9;
+}
+
+#main div.autocomplete ul li {
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 2px;
+	height: 22px;
+	cursor: pointer;
+}
+
+#content ul.callout li,
+#main-side .related-info-box ul.callout li {
+	margin-bottom: 3px;
+}
+
+#content #breadcrums {
+	position: absolute;
+	right: 30px;
+	top: 8px;
+}
+
+#content .alignright {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#content .alignleft {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#content .aligncenter {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#content .posting {
+	padding: 0 10px 5px 10px;
+	display: block;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #000;
+}
+
+#content .posting img {
+	margin: 0 3px;
+}
+
+#content code {
+	margin: 0 10px 10px 10px;
+	padding: 10px;
+	display: block;
+}
+
+#content code.inline {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+#content img {
+	vertical-align: middle;
+}
+
+#content blockquote {
+	padding: 5px 0 1px 0;
+}
+
+div.dynamicInfoBox {
+	position: absolute;
+	left: 180px;
+	z-index: 101;
+	border: 1px solid #666;
+	margin-top: 2px;
+	padding: 3px;
+	width: 300px;
+	font-weight: normal;
+}
+
+div.dynamicInfoBoxTrigger a {
+	z-index: 1;
+}
+
+div.dynamicImageBox {
+	visibility: hidden;
+	position: absolute;
+	left: 25px;
+	z-index: 15;
+	border: 1px solid #666;
+	padding: 3px;
+	opacity: .80;
+}
+
+div.dynamicFormBox {
+	position: absolute;
+	z-index: 15;
+	border: 2px solid #666;
+	padding: 3px;
+	opacity: .90;
+}
+
+.dynamicFormBoxContainer {
+	position: relative;
+	padding: 3px 0px 3px 3px;
+}
+
+img.image-logo {
+	width: 120px;
+	border: 0;
+	margin: 10px;
+}
+
+img.image-logo-inline {
+	height: 18px;
+	border: 0;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+
+img.provider-logo {
+	vertical-align: middle;
+	border: 0;
+	max-width: 100px;
+	max-height: 100px;
+	float: right;
+}
+
+code.copyPaste {
+	white-space: pre;
+}
+
+ul.yesList {
+    margin-left: 23px;
+}
+
+ul.yesList li {
+    margin-left: 10px;
+    padding-left: 15px;
+}
+
+table.horizontal-headers tr th {
+    text-align: left;
+}
+
+table.plain-headers tr th {
+    font-weight: normal;
+}
+
+table tr th.rowHeader {
+    text-align: right;
+}
+
+div.staticFileToolbar {
+    margin: 3px 0px;
+}
+
+.staticFileActions {
+    text-align: right;
+    padding-right: 5px;
+    white-space: nowrap;
+}
+
+img.preview {
+    max-width: 640px;
+    max-height: 480px;
+}
+
+#content table.registrationList {
+    width: 98%;
+    border-spacing: 5px 1px;
+}
+
+#content table.registrationList th {
+    text-align: left;
+}
+
+.textComment {
+    padding-bottom: 10px;
+}
+
+.textCommentHeader img {
+    vertical-align: middle;
+}
+
+.textCommentMessage,
+.textCommentFileAttachment {
+    margin-left: 10px;
+}
+
+.task {
+    border-bottom: 1px dashed #808080;
+    margin-top: 5px;
+    padding-top: 3px;
+    padding-bottom: 10px;
+}
+
+.taskPosition {
+    width: 30px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+#content .task .taskDescription {
+    margin-left: 25px;	
+}
+
+/* _____FORUM_AND_STREAM_LAYOUT_____ */
+
+.forumPost,
+.streamPost {
+	margin: 15px 0;
+	padding: 0;
+}
+
+.forumPost .postHeader,
+.streamPost .postHeader {
+	margin: 2px;
+	padding: 3px 4px;
+	overflow: auto;
+	position: relative;
+}
+
+.forumPost .postHeader img.logo,
+.streamPost .postHeader img.logo {
+	float: right;
+	height: 4em;
+}
+
+.forumPost .postHeader .time,
+.streamPost .postHeader .time {
+	float: left;
+	width: 300px; 
+	text-align: left;
+}
+
+.forumPost .postHeader .stats,
+.streamPost .postHeader .stats {
+	clear: left;
+	width: 300px;
+}
+
+.forumPost .postHeader .actions,
+.streamPost .postHeader .actions {
+	float: right;
+	width: 300px;
+	text-align: right;
+}
+
+.forumPost .author,
+.streamPost .author,
+.streamPost .tags {
+	margin: 2px;
+	padding: 3px 4px;
+	overflow: auto;
+}
+
+.forumPost .author img.user_pic,
+.streamPost .author img.user_pic {
+	margin-right: 7px;
+	float: left;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.forumPost .author .personal,
+.streamPost .author .personal {
+	float: left;
+	width: 60%;
+}
+
+.forumPost .author .extra,
+.streamPost .author .extra {
+	float: left;
+	width: 40%;
+	text-align: right;
+}
+
+.forumPost .message,
+.streamPost .body {
+	padding: 7px 4px;
+	background: none;
+	position: relative;
+}
+
+.streamPostCommentsForm textarea {
+	width: 100%;
+}
+
+.streamPost .nested-posts {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.forumPost .message .code,
+.streamPost .body .code,
+#previewContainer .code {
+	margin: 2px;
+	padding: 3px;
+	border: 1px dashed #999;
+}
+
+.forumPost .message .code pre,
+.streamPost .body .code pre
+#previewContainer .code pre {
+	overflow: auto;
+	width: 95%;
+	max-height: 350px;
+}
+
+.forumPost .message code,
+.streamPost .body code,
+#previewContainer code {
+	padding: 0;
+	margin: 0;
+	display: inline;
+	background: none;
+}
+
+.forumPost .message object,
+.streamPost .body object {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.forumPost .history,
+.streamPost .parent-post {
+	margin: 0;
+	padding: 2px;
+	border-top: 1px solid #000;
+}
+
+.forumPost .message .findOutMoreLink,
+.streamPost .body .findOutMoreLink {
+	display: block;
+	font-size: small;
+}
+
+#previewContainer,
+#bbcodeInput textarea {
+	padding: 5px;
+	margin: 3px 0;
+	width: 98.5%;
+}
+
+.bbeditor button {
+	padding: 2px 3px;
+}
+
+#content table.forumTopics {
+	margin: 5px 0;
+	width: 100%;
+}
+
+.stream-post-tag-logos {
+	text-align: center;
+}
+
+.stream-post-tag-logo {
+	max-width: 20px;
+}
+.stream-post {
+	padding: 20px 75px 9px 0px;
+}
+.stream-post-side {
+	margin-top: 10px;
+}
+.stream-post-side a.important {
+	float: left;
+	width: 170px;
+}
+.stream-post-thumbnail {
+	float: left;
+	display: inline;
+	position: relative;
+	width: 100px;
+	margin-right: 10px;
+}
+.stream-post-thumbnail img {
+	max-width: 100px;
+}
+.stream-post-info {
+	float: left;
+	display: inline;
+	width: 500px;
+}
+.stream-post-title {
+	margin-top: -3px;
+	line-height: 1em;
+	letter-spacing: -1px;	
+}
+.stream-post-tags {
+
+}
+.stream-post-tag-img {
+	max-height: 20px;
+}
+
+#content table.forumTopics thead tr th.topicTitle,
+#content table.forumTopics thead tr th.lastPost,
+#content table.forums thead tr th.forumName {
+	text-align: left;
+}
+
+#content table.forumTopics tbody tr td.numViews,
+#content table.forumTopics tbody tr td.numPosts,
+#content table.forums tbody tr td.numViews,
+#content table.forums tbody tr td.numPosts,
+#content table.forums tbody tr td.numTopics {
+	text-align: center;
+	width: 5%;
+}
+
+#content table.forumTopics tbody tr td.lastPost {
+	text-align: left;
+	width: 25%;
+}
+
+/* _____USER_PROFILE_LAYOUT_____ */
+
+img.user_profile_pic {
+	margin: 0px 3px 3px 0px;
+	max-width: 100px;
+	max-height: 100px;
+	display: block;
+}
+
+div.inlineNote {
+	margin: 5px 0px;
+}
+
+.publicProfile {
+	border: 1px solid #ccc;
+	padding: 10px 5px 5px 5px;
+}
+
+.publicProfile .profileName {
+	margin-bottom: 3px;
+	border: none;
+}
+
+.publicProfile .profileOrgInfo {
+	margin-bottom: 5px;
+}
+
+.publicProfile .profilePic {
+	max-width: 150px;
+	max-height: 150px;
+	float: left;
+	display: block;
+	margin: 0px 10px 5px 5px;
+}
+
+.expert-profile-page .profilePic,
+.training-public-course-event-page .profilePic {
+    max-width: 150px;
+    max-height: 150px;
+    float: right;
+    margin: 0px 0px 5px 5px;
+}
+
+.training-course-page .instructor-box {
+    clear: both;
+    margin-bottom: 20px;
+}
+.training-course-page .instructor-box .instructor-name {
+    text-align: left;
+    font-size: 120%;
+    font-weight: bold;
+    width: 100%;
+}
+.training-course-page .instructor-box .instructor-photo {
+    float: right;
+    margin: 10px 0 10px 10px;
+}
+.training-course-page .instructor-box .instructor-photo img {
+	max-width: 150px;
+	max-height: 150px;
+}
+.training-course-page .instructor-box .instructor-info {
+
+}
+
+.publicProfile .profileActions {
+	float: right;
+	margin: 0px 5px 5px 10px;
+	text-align: right;
+}
+
+/* _____FORM_LAYOUT_____ */
+
+form img.user_pic,
+.readOnlyForm img.user_pic {
+	max-width: 75px;
+	max-height: 75px;
+}
+
+label {
+	cursor: pointer;
+}
+
+form fieldset legend {
+	display: none;
+}
+
+form fieldset {
+	float: left;
+	width: 100%;
+}
+
+form .formRow,
+.readOnlyForm .formRow,
+.propertyRow {
+	float: left;
+	clear: left;
+	width: 100%;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	border-bottom: 1px solid #eee;
+}
+
+form .note,
+.note {
+	clear: both;
+	margin-left: 3px;
+	padding-top: 5px;
+}
+
+form div.note,
+div.note {
+    margin-left: 0px;
+}
+
+form .tool {
+	clear: both;
+	padding-top: 1px;
+}
+
+form .formRow .labeled,
+.readOnlyForm .formRow .labeled,
+.propertyRow .labeled
+	{
+	width: 190px;
+	float: left;
+}
+
+form table td .formRow .labeled {
+    text-align: right;
+}
+
+form table td .formRow {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+form table td .formRow label {
+	top: 0;
+}
+
+form .formRow .formOutput,
+.readOnlyForm .formRow .formOutput,
+.propertyRow .propertyOutput,
+form .formRow .fields {
+	margin-left: 190px;
+}
+
+form .formRow .error,
+form .buttons {
+	padding-left: 190px;
+}
+
+.pageActions {
+	padding-left: 190px;
+	padding-bottom: 10px;
+}
+
+.pageActions a {
+	margin-right: 10px;
+}
+
+.related-info-box form .formRow .labeled,
+.related-info-box .readOnlyForm .formRow .labeled {
+	width: 100px;
+}
+
+.related-info-box form .formRow .formOutput,
+.related-info-box .readOnlyForm .formRow .formOutput,
+.related-info-box form .formRow .fields {
+	margin-left: 100px;
+}
+
+.related-info-box form .formRow .error,
+.related-info-box form .buttons {
+	padding-left: 100px;
+}
+
+form .formRow label {
+	position: relative;
+	top: 3px;
+}
+
+form .smallest,
+form .small,
+form .small-to-medium,
+form .medium,
+form .middle,
+form .normal,
+form .large,
+form .largest,
+form input[type="radio"],
+form input[type="checkbox"],
+form input[type="password"] {
+	padding: 2px;
+	vertical-align: middle;
+}
+
+form .smallest {
+	width: 60px;
+}
+
+form .small {
+	width: 100px;
+}
+
+form .small-to-medium {
+    width: 125px;
+}
+
+form .medium {
+	width: 150px;
+}
+
+form .middle {
+	width: 250px;
+}
+
+form .large {
+	width: 340px;
+}
+
+form .largest {
+	width: 93%;
+}
+
+form .buttons {
+	float: none;
+	width: auto;
+	vertical-align: middle;
+}
+
+form .main-buttons {
+    margin-top: 20px;
+    margin-bottom: 15px;	
+}
+
+form button.small,
+form button.medium,
+form button.large {
+	width: auto;
+}
+
+form .buttons input,
+form .buttons img,
+form .buttons button,
+a button {
+	vertical-align: middle;
+	margin: 0 5px 5px 0;
+	text-decoration: none;
+}
+
+form .tabButtons {
+	width: 100%;
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+form .tabButtons button {
+	margin: 0 0 0 2px;
+	padding: 1px;
+}
+
+form .required {
+	color: #c00;
+	margin: 0 3px;
+}
+
+form table>tr th,
+form table>tr td {
+	background-color: transparent;
+	border: none;
+	padding: 2px;
+}
+
+form table>tr th {
+	text-align: right;
+}
+
+.pagebanner {
+	float: left;
+	display: block;
+	width: 50%;
+	margin-bottom: 5px;
+}
+
+.pagelinks {
+	float: right;
+	display: block;
+	width: 50%;
+	margin-bottom: 5px;
+	text-align: right;
+}
+
+.pagelinks + table {
+    clear: both;
+}
+
+.pre-table-actions {
+	margin: 0 0 5px 0;
+}
+
+.formRow .fields,
+.formRow .fields button {
+	vertical-align: middle;
+}
+
+#content table.list,
+#admin-page #content table.list {
+	width: 100%;
+	margin: 0;
+	clear: none;
+}
+
+#admin-page #content .fields table {
+    margin: 0;
+    clear: none;
+}
+
+#content table.list,
+#content table.list tr td {
+	border: 0;
+	background-color: #fff;
+	color: inherit;
+	padding-left: 0px;
+}
+
+#content div.multiCheckboxInput div {
+	float: left;
+}
+#content div.columns1 div {
+	width: 100%;
+}
+#content div.columns2 div {
+	width: 50%;
+}
+#content div.columns3 div {
+    width: 33.33%;
+}
+#content div.columns4 div {
+    width: 25%;
+}
+#content div.columns5 div {
+    width: 20%;
+}
+#content div.columns6 div {
+    width: 16.66%;
+}
+#content div.multiCheckboxInput div input {
+    vertical-align: top;
+    float: left;
+    width: 20px;
+}
+#content div.multiCheckboxInput div label {
+    vertical-align: top;
+}
+
+/* _____PROVIDER_LAYOUT_____ */
+
+#provider-page .menu ul ul {
+	min-width: 150px;
+}
+
+/* _____ADMIN_LAYOUT_____ */
+
+#admin-page img.icon {
+	background-color: transparent;
+	border-width: 0px;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-bottom;
+	right: 0px;
+}
+
+#admin-page img.entityPhoto {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	max-width: 250px;
+}
+
+#admin-page #content table {
+	margin-top: 5px;
+	clear: both;
+}
+
+#admin-page #content {
+	padding: 10px 10px 10px 0px;
+}
+
+/* _____MENU_BAR_LAYOUT_____ */
+
+#Menubar {
+	margin-top: 20px;
+	padding: 9px 20px 15px 0px;
+}
+
+#Menubar ul {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 10px;
+}
+
+#Menubar ul li {
+	background: none;
+	padding: 0;
+	margin: 2px 0px;
+}
+
+#Menubar ul.top-menu-list li.button-item {
+	font-weight: bold;
+}
+
+#Menubar ul.top-menu-list li.menu-selection-item {
+	font-weight: normal;
+	height: 16px;
+}
+
+#Menubar ul.menu-selection-list {
+	display: none;
+}
+
+#Menubar ul.top-menu-list li.menu-item {
+	margin: 0;
+	padding: 0px;
+	display: inline;
+	list-style-type: none;
+}
+
+#Menubar a {
+	text-decoration: none;
+	font-weight: normal;
+}
+
+/* _____POPUP_LAYOUT_____ */
+
+body#popup-page {
+	min-width: 200px;
+}
+
+.popup-page h1 {
+	text-align: left;
+	margin: 0px 0px 5px 0px;
+}
+
+#popup-page h2 {
+	text-align: left;
+	margin: 0;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
+#popup-page h3 {
+	font-weight: bold;
+	margin-bottom: 7px;
+}
+
+#popup-page #header {
+	padding-top: 5px;
+	border-bottom: 1px solid gray;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: auto;
+	width: auto;
+}
+
+.popup-page #company-logo {
+	float: right;
+	margin: 0;
+	border: 0;
+	max-height: 42px;
+	max-width: 180px;
+}
+.popup-page .static-files #company-logo {
+	max-height: 32px;
+}
+
+#popup-page #content {
+	padding: 7px 7px 7px 7px;
+}
+
+#popup-page #footer {
+	clear: both;
+	margin-top: 5px;
+	border-top: 1px solid gray;
+	background: none; padding : 0px 15px;
+	text-align: right;
+	height: auto;
+	width: auto;
+	padding: 0px 15px;
+}
+
+#popup-page #footer .footer-window-action {
+	float: right;
+	text-align: right;
+}
+
+#popup-page #footer p.copyright {
+	text-align: center;
+}
+
+.embedded-entity {
+    margin: 5px 20px;
+}
+form .embedded-entity .formRow .labeled,
+.embedded-entity .propertyRow .labeled {
+    width: 170px;
+}
+form .embedded-entity .formRow .formOutput,
+form .embedded-entity .formRow .fields,
+.embedded-entity .propertyRow .propertyOutput  {
+    margin-left: 170px;
+}
+form .embedded-entity .formRow .error,
+form .embedded-entity .buttons {
+    padding-left: 170px;
+}
+form .embedded-entity .embedded-entity .formRow .labeled,
+.embedded-entity .embedded-entity .propertyRow .labeled {
+    width: 150px;
+}
+form .embedded-entity .embedded-entity .formRow .formOutput,
+form .embedded-entity .embedded-entity .formRow .fields,
+.embedded-entity .embedded-entity .propertyRow .propertyOutput  {
+    margin-left: 150px;
+}
+form .embedded-entity .embedded-entity .formRow .error,
+form .embedded-entity .embedded-entity .buttons {
+    padding-left: 150px;
+}
+
+.talent-expert .location {
+    float: right;   
+}
+
+.talent-expert .contact-photo {
+    float: right;
+    max-width: 200px;
+    max-height: 400px;
+}
+#modal-window-box { 
+    position: absolute; 
+    left: 0px; 
+    top: 0px; 
+    width:100%; 
+    text-align:center; 
+    z-index: 1000;
+    background-color: #000;
+} 
+#modal-window-content { 
+    position: absolute; 
+    left: 50%; 
+    width: 500px; 
+    margin: 250px 0 0 -250px; 
+    background-color: #fff; 
+    border: 3px double black; 
+    padding: 15px; 
+    text-align: center; 
+    z-index: 1001; 
+}
+object.youtube,
+object.youtube-hd,
+object.slideshare,
+object.video {
+    width: 680px;
+    height: 410px;
+}
+.page-auto-generated-info {
+    float: right; 
+}
+table.class-info tr th {
+    text-align: left;
+}
+table.training-survey-report-ratings {
+    width: 100%;
+    line-height: 16px;
+}
+table.training-survey-report-ratings tr th.survey-criteria {
+	text-align: left;
+}
+table.training-survey-report-ratings tr th.survey-responses {
+    text-align: right;
+}
+table.training-survey-report-ratings tr th.survey-average {
+    width: 100px;
+}
+table.training-survey-report-ratings tr td.survey-average {
+    padding: 0 10px;
+}
+table.training-survey-report-ratings tr th.survey-std-dev {
+    text-align: right;
+}
+div.survey-ratings-legend-header {
+	color: #f90;
+}
+table.survey-ratings-legend {
+	width: auto; 
+	line-height: 14px;
+}
+#content .propertyRow .propertyOutput ul {
+    list-style-position: inside;
+    margin-left: 0;
+}
+.forums img.forumLogo {
+	height: 3em;
+	max-width: 4em;
+}
+.side-part img.forumLogo {
+    max-width: 200px;
+}
+.blurb .formatting-error {
+    overflow: auto; 
+    height: 200px; 
+    width: 90%; 
+    white-space: pre;
+}
+a.top {
+    float: right;
+}
+	
+.propertyRow .propertyOutput img.inline {
+    margin-left: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.propertyRow .propertyOutput img.full {
+    display: block;
+    margin: 10px 0 0 0;
+    height: auto;
+}
