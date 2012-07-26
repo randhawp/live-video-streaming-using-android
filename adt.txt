@@ -5,5 +5,5 @@ http://developer.android.com/sdk/installing/installing-adt.html#Configure
 
 
 Live Video Streaming
-	Existing system first streams the video to the server and save the same. It is then broadcasted to the client’s browser. This type of streaming is not live (i.e. stored and then broadcasted). Solution is allowing a real-time video streaming service from an Android mobile device to the browser using an open source server (NanoHTTPD). This server will be running on the Mobile Device itself. 
+	Existing system first streams the video to the server and save the same. It is then broadcasted to the client browser. This type of streaming is not live (i.e. stored and then broadcasted). Solution is allowing a real-time video streaming service from an Android mobile device to the browser using an open source server (NanoHTTPD). This server will be running on the Mobile Device itself. 
 Platform: Android 2.2,java
