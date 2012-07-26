@@ -1,1 +1,4 @@
 http://developer.android.com/sdk/download.html?v=archives/android-sdk-windows-1.5_r3.zip
+
+
+http://developer.android.com/sdk/installing/installing-adt.html#Configure
