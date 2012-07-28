@@ -1,0 +1,28 @@
+<html><head> <title>DAC LIVE VIDEO PROJECT</title> </head> 
+<script type='text/javascript'>
+    var cnt = -1; function myFunction()
+    { setInterval(SwitchPic, 300); } function SwitchPic() {
+        if (cnt == 20) { cnt = 0 } var d = new Date();
+        var name = cnt++; name = name + '.jpg?' + d.getTime();
+        document.getElementById('imag').src = './images/' + name;
+    } 
+   </script>
+   </head>
+   <body bgcolor='black' onload='myFunction()' style="background-image:url('./background.jpg');background-repeat:no-repeat;background-color:Black"> 
+   <br /> <br /><br /> 
+   <div style="float:left;width:150px;">
+   <font color="white">
+      <br />Developed By: <br />	<br />Akshay Velhal<br /> Chetan Paunikar <br /> Gauri Tembare <br /> Pradnya Bagave <br />  Prashant Varpe <br /> Pranali Deshpande <br /> Pritesh Jadhav <br /> Sonali Dhome <br /> Vivek Saxena <br />  Yashwant Patel
+  </font>
+   </div>
+   <div style="float:left ">
+
+    <center><h1><font style='color:white'> LIVE VIDEO STREAMING </font></h1></center>
+    
+     <div style='color:#d3d3d3;height:300px;width:400px' align='center'> 
+     <img src='./images/1.jpg' height='300px' width='600px' id='imag' onClick='myFunction()' alt='Buffering Video....'/>
+      </div>
+      <br /> <br />
+      </div>
+       
+       </body> </html>
