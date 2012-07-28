@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+
+    <ScrollView 
+	    android:id="@+id/ScrlView" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" >
+	    
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    <TextView
+     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us" 
+        android:layout_marginLeft="150px"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="20px"
+        android:id="@+id/aboutus"
+      
+        />
+    <TextView
+     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME" 
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="10px"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="35px"
+        android:textStyle="bold"
+        />
+        <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message" 
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="10px"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="25px"
+        />    
+        <TextView
+        android:id="@+id/ipaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type this URL onto Browser:" 
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="10px"
+        android:textColor="@android:color/widget_edittext_dark"
+        android:textSize="15px"
+        />
+
+        <Button
+            android:id="@+id/startbtn"
+            android:layout_marginTop="100px"
+	        android:layout_marginLeft="10px"
+            android:layout_width="100px"
+            android:layout_height="50px"
+            android:text="Start"
+            android:textSize="25px"
+            android:background="@drawable/startbutton" 
+  	          />
+        
+        </LinearLayout>
+        </ScrollView>
+</LinearLayout>

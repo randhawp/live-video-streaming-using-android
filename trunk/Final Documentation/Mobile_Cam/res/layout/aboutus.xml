@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background"
+    android:isScrollContainer="true">
+
+	<ScrollView 
+	    android:id="@+id/ScrlView" 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" >
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/background">
+    <TextView
+      
+        android:layout_marginLeft="10px"
+        android:textSize="30px"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Live Video Streaming" 
+        android:textColor="@android:color/black"/>
+
+<TextView
+        android:layout_marginTop="10px"
+        android:textSize="15px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stream live video using a mobile camera to a distant /remote computer and view the same on the web browser." 
+        android:textColor="@android:color/black"/>
+       <TextView
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="10px"
+        android:textSize="20px"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Members:" 
+        android:textColor="@android:color/black"/>
+     <TextView
+        android:layout_marginTop="5px"
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Akshay Velhal." 
+        android:textColor="@android:color/black"/>
+      <TextView
+       
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Chetan Paunikar." 
+        android:textColor="@android:color/black"/>
+     
+       <TextView
+     
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Gauri Tembare." 
+        android:textColor="@android:color/black"/>
+      
+        <TextView
+       
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4.Pradnya Bagave." 
+        android:textColor="@android:color/black"/>
+       
+         <TextView
+
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5.Prashant Varpe." 
+        android:textColor="@android:color/black"/>
+        
+          <TextView
+   
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6.Pranali Deshpande." 
+        android:textColor="@android:color/black"/>
+         
+           <TextView
+   
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.Pritesh Jadhav." 
+        android:textColor="@android:color/black"/>
+          
+            <TextView
+       
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8.Sonali Dhome." 
+        android:textColor="@android:color/black"/>
+           
+            <TextView
+           android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="9.Vivek Saxena." 
+        android:textColor="@android:color/black"/>
+           
+             <TextView
+  
+        android:layout_marginLeft="10px"
+        android:textSize="15px"
+ 		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10.Yashwant Patel." 
+        android:textColor="@android:color/black"/>
+             
+      </LinearLayout>
+    </ScrollView>        
+</LinearLayout>
