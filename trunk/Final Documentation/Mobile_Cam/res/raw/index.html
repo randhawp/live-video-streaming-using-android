@@ -1,0 +1,101 @@
+﻿<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<!-- A minimal Flowplayer setup to get you started -->
+  
+
+	<!-- 
+		include flowplayer JavaScript file that does  
+		Flash embedding and provides the Flowplayer API.
+	-->
+	<script type="text/javascript" src="flowplayer.js"></script>
+	
+	<!-- some minimal styling, can be removed -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<!-- page title -->
+	<title>LIVE VIDEO STREAMING</title>
+
+</head><body>
+
+	<div id="page">
+	
+    <div style="float:left">
+    
+    </div>
+    	<h1>Live Video Streaming</h1>
+	<br /><br />	<!-- this A tag is where your Flowplayer will be placed. it can be anywhere -->
+		<a  
+			 href="2.mp4"			 style="display:block;width:640px;height:480px"  
+             id="player">
+		</a> 
+	
+		<!-- this will install flowplayer inside previous A- tag. -->
+		<script>
+			var d = new Date();
+			flowplayer("player", "flowplayerflash.swf",{
+
+                        clip: {
+                            autoPlay: true,
+                            autoBuffering: true,
+                            scaling: 'fit',
+                        },
+                        playlist: [
+{
+url: '0.mp4?d.getTime()'
+},
+{
+url: '1.mp4?d.getTime()'
+},
+{
+url: '2.mp4?d.getTime()'
+},
+{
+url: '3.mp4?d.getTime()'
+},
+{
+url: '4.mp4?d.getTime()'
+},
+{
+url: '5.mp4?d.getTime()'
+},
+{
+url: '6.mp4?d.getTime()'
+},
+{
+url: '7.mp4?d.getTime()'
+},
+{
+url: '8.mp4?d.getTime()'
+},
+{
+url: '9.mp4?d.getTime()',
+onBeforeFinish: function () {
+      // loop by not triggering onFinish
+      return false;
+    }
+
+}
+],
+                        plugins: {
+                            controls: {
+                                url: 'playercontrolers.swf',
+                                playlist: true,
+                                fullscreen: true,
+                                volume: true,
+                                mute: false,
+                                stop: false,
+								scrubber: false                                
+                                }
+                       }
+                    });
+		</script>
+	    <h2>Developed By</h2><br />
+  <center>	|Akshay Velhal| Chetan Paunikar | Gauri Tembare | Pradnya Bagave |</center><br /> <center>| Prashant Varpe | Pranali Deshpande | Pritesh Jadhav |</center><br /> <center>| Sonali Dhome | Vivek Saxena | Yashwant Patel|</center>
+ 	
+	</div>
+    <div >
+  
+  
+    <h2>Contact us at livevideostreaming_dac2012@googlegroups.com</h2>
+	   </div>
+</body></html>
